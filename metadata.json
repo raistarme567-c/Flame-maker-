@@ -1,0 +1,6 @@
+{
+  "name": "Flame Maker",
+  "description": "Professional mobile-first game development engine. Create 2D/3D games, visual scripting, live physics simulation, profiler, and direct on-device APK export.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

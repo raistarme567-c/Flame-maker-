@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group
+        android:scaleX="0.85"
+        android:scaleY="0.85"
+        android:translateX="8.1"
+        android:translateY="8.1">
+        <!-- Outer Hex Shield -->
+        <path
+            android:pathData="M54,16 L84,33 L84,67 L54,84 L24,67 L24,33 Z"
+            android:strokeWidth="2.5"
+            android:strokeColor="#FF5722"
+            android:fillColor="#151224" />
+
+        <!-- Inner Flame Shape Core -->
+        <path
+            android:pathData="M54,24 C57,34 68,42 68,54 C68,64 60,72 54,74 C48,72 40,64 40,54 C40,44 48,36 50,30 C50,35 52,38 54,39 C56,36 56,30 54,24 Z">
+            <aapt:attr name="android:fillColor">
+                <gradient
+                    android:startX="54"
+                    android:startY="24"
+                    android:endX="54"
+                    android:endY="74"
+                    android:type="linear">
+                    <item android:offset="0.0" android:color="#FFE082" />
+                    <item android:offset="0.3" android:color="#FF9800" />
+                    <item android:offset="0.7" android:color="#FF5722" />
+                    <item android:offset="1.0" android:color="#E91E63" />
+                </gradient>
+            </aapt:attr>
+        </path>
+
+        <!-- Golden Spark Center -->
+        <path
+            android:pathData="M54,44 C57,50 60,54 60,59 C60,63 57,66 54,67 C51,66 48,63 48,59 C48,55 52,51 54,44 Z"
+            android:fillColor="#FFF9C4" />
+
+        <!-- Controller D-Pad Left Accent -->
+        <path
+            android:pathData="M31,48 L35,48 L35,44 L38,44 L38,48 L42,48 L42,51 L38,51 L38,55 L35,55 L35,51 L31,51 Z"
+            android:fillColor="#00E5FF"
+            android:fillAlpha="0.85" />
+
+        <!-- Action Buttons Right Accent -->
+        <path
+            android:pathData="M73,46 A2.5,2.5 0 1,1 73,45.99 Z M68,52 A2.5,2.5 0 1,1 68,51.99 Z M78,52 A2.5,2.5 0 1,1 78,51.99 Z M73,58 A2.5,2.5 0 1,1 73,57.99 Z"
+            android:fillColor="#FF4081"
+            android:fillAlpha="0.85" />
+
+        <!-- Bottom Base Tech Accent -->
+        <path
+            android:pathData="M38,78 L54,86 L70,78"
+            android:strokeWidth="2"
+            android:strokeColor="#FFAB00" />
+    </group>
+</vector>
